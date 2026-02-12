@@ -1,0 +1,30 @@
+{
+  "name": "employee-management-app",
+  "version": "1.0.0",
+  "description": "An enterprise employee management system with CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "server": "node backend/server.js",
+    "client": "cd frontend && npm start",
+    "dev": "npm run server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayandeb9/employee-management-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sayandeb9/employee-management-app/issues"
+  },
+  "homepage": "https://github.com/sayandeb9/employee-management-app#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "sqlite3": "^5.1.7"
+  }
+}
